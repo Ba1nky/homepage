@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <title>Résumé</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Résumé</title>
         <link rel="stylesheet" href="styles.css" />
     </head>
     <body>
@@ -145,8 +145,165 @@
                             </p>
                         </div>
                     </div>
+                    <div class="resume__block">
+                        <div class="skills">
+                            <h3 class="skills__header">Skills</h3>
+                            <ul class="skills__list">
+                                <li>
+                                    C# 9.0, Entity Framework, Asp.Net Core,
+                                    WinForms
+                                </li>
+                                <li>HTML, CSS/SCSS, JavaScript</li>
+                                <li>T-SQL, SQL server 2019</li>
+                                <li>OOP, MVC, Design patterns</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="resume__block">
+                        <div class="additional-info">
+                            <div class="additional-info__education">
+                                <h3 class="additional-info__education-header">
+                                    Education
+                                </h3>
+                                <div
+                                    class="additional-info__education-university"
+                                >
+                                    <span
+                                        class="additional-info__education-university-durability"
+                                        >2020 - present</span
+                                    >
+                                    <h3
+                                        class="additional-info__education-university-speciality"
+                                    >
+                                        Cybersecurity
+                                    </h3>
+                                    <p
+                                        class="additional-info__education-university-name"
+                                    >
+                                        Khmelnytskyi National University
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="additional-info__languages">
+                                <h3 class="additional-info__languages-header">
+                                    Languages
+                                </h3>
+                                <p class="languages-item">Ukrainian - native</p>
+                                <p class="languages-item">
+                                    English - pre-intermediate
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="resume__block">
+                        <div data-spollers class="accordion">
+                            <div class="accordion__item">
+                                <button
+                                    tabindex="-1"
+                                    type="button"
+                                    data-spoller
+                                    class="accordion__title"
+                                >
+                                    Likes🙃
+                                </button>
+                                <div class="accordion__text">
+                                    <em
+                                        >Sleep, eat, drink a cup of coffee,
+                                        humor, ride a bicycle, IT technology</em
+                                    >
+                                </div>
+                            </div>
+                            <div class="accordion__item">
+                                <button
+                                    tabindex="-1"
+                                    type="button"
+                                    data-spoller
+                                    class="accordion__title"
+                                >
+                                    Dislikes😞
+                                </button>
+                                <div class="accordion__text">
+                                    <em
+                                        >Bad habits, bureacray, war,
+                                        irresponsibility</em
+                                    >
+                                </div>
+                            </div>
+                            <div class="accordion__item">
+                                <button
+                                    tabindex="-1"
+                                    type="button"
+                                    data-spoller
+                                    class="accordion__title"
+                                >
+                                    Wants🥺
+                                </button>
+                                <div class="accordion__text">
+                                    <em
+                                        >Be a professional in my field,
+                                        traveling</em
+                                    >
+                                </div>
+                            </div>
+                            <div class="accordion__item">
+                                <button
+                                    tabindex="-1"
+                                    type="button"
+                                    data-spoller
+                                    class="accordion__title"
+                                >
+                                    Timeline⏱
+                                </button>
+                                <div class="accordion__text">
+                                    <h5>Now</h5>
+                                    <ul class="timeline">
+                                        <li>
+                                            <p>
+                                                <em>
+                                                    15
+                                                    <sup>th</sup>
+                                                    September - present
+                                                </em>
+                                            </p>
+                                            <p>student of the KHNU</p>
+                                        </li>
+                                    </ul>
+                                    <h5>Back then</h5>
+                                    <ul class="timeline">
+                                        <li>
+                                            <p>
+                                                <em>
+                                                    1
+                                                    <sup>st</sup>
+                                                    September 2009 - 30
+                                                    <sup>th</sup>
+                                                    May 2020
+                                                </em>
+                                            </p>
+                                            <p>Active school life</p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <em>
+                                                    11
+                                                    <sup>th</sup>
+                                                    December 2002
+                                                </em>
+                                            </p>
+                                            <p>
+                                                Born in Izyaslav, Khmelnytskyi
+                                                Oblast
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </main>
+        <script src="accordion.js"></script>
     </body>
 </html>
