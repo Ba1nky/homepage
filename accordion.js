@@ -51,9 +51,7 @@ if (spollersArray.length > 0) {
     }
     function hideSpollerBody(spollersBlock) {
         const spollerActiveTitle = spollersBlock.querySelector("._active");
-        console.log(spollersBlock);
         if (spollerActiveTitle) {
-            console.log(spollerActiveTitle.classList);
             spollerActiveTitle.classList.remove("_active");
             _slideUp(spollerActiveTitle.nextElementSibling, 500);
         }
@@ -106,7 +104,6 @@ let _slideDown = (target, duration = 500) => {
         target.style.removeProperty("margin-top");
         target.style.removeProperty("margin-bottom");
         window.setTimeout(() => {
-            //target.hidden = true;
             target.style.removeProperty("height");
             target.style.removeProperty("overflow");
             target.style.removeProperty("transition-duration");
